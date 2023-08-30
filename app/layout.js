@@ -1,9 +1,23 @@
-import React from 'react'
+import "@styles/globals.css";
 
-const layout = () => {
+import Nav from '@components/Nav';
+
+export const metadata = {
+  title: 'Portfolio',
+  description: "Nick Morris's Professional Portfolio",
+};
+
+const layout = ({ children }) => {
   return (
-    <div>layout</div>
-  )
-}
+    <html lang='en'>
+      <body>
+        <main className='app'>
+          <Nav />
+          {children}
+        </main>
+      </body>
+    </html>
+  );
+};
 
 export default layout;
