@@ -14,9 +14,11 @@ const Nav = () => {
   return (
     <nav className='flex justify-between w-full mb-16 pt-3 px-3'>
         {/* Logo image that links back to the main page */}
-        <div className=''>
+        <Link
+            href='/'
+        >
             Logo
-        </div>
+        </Link>
 
         {/* Mobile nav bar as a dropdown */}
         <div className='sm:hidden'>
@@ -26,7 +28,24 @@ const Nav = () => {
             />
 
             {toggleDropdown && (
-                <div>test</div>
+                <div className='flex flex-col'>
+                    <Link
+                        href='#about-me'
+                    >
+                        About me</Link>
+                    <Link
+                        href='#tech-stack'
+                    >
+                        Tech Stack</Link>
+                    <Link
+                        href='#projects'
+                    >
+                        Projects</Link>
+                    <Link
+                        href='#contact'
+                    >
+                        Contact</Link>
+                </div>
             )}
         </div>
     </nav>
