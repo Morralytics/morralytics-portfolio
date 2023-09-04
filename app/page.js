@@ -4,9 +4,9 @@ const page = () => {
   return (
     <section className='w-full flex flex-col'>
       <div className="flex flex-col items-center">
-        <h1 className="text-2xl">Hello and welcome!</h1>
-        <p>I'm Nick Morris</p>
-        <p>A Full Stack Web Developer</p>
+        <h1 className="text-4xl font-normal">Hello!</h1>
+        <p className="text-2xl font-thin">I'm Nick Morris</p>
+        <p className="text-2xl font-thin">A Full Stack Web Developer</p>
       </div>
       <div className="flex justify-end">
         <Image
