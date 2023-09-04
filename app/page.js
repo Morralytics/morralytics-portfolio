@@ -8,7 +8,7 @@ const page = () => {
         <p className="text-2xl font-thin">I'm Nick Morris</p>
         <p className="text-2xl font-thin">A Full Stack Web Developer</p>
       </div>
-      <div className="flex justify-end">
+      <div className="flex justify-center mt-5">
         <Image
           src='/assets/images/Me_BW_Adjusted.png'
           alt="Profile Picture"
