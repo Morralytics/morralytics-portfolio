@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        montserrat: ['Montserrat'],
+        roboto: ['Roboto, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont'],
       },
       colors: {
         'persion-orange': '#BE8A60',

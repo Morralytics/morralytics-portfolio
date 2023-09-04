@@ -36,10 +36,10 @@ const Nav = () => {
       </section>
       <section className={`absolute w-full pr-10`}>
         <ul className={`${toggleDropdown ? 'translate-y-0 opacity-100' : '-translate-y-7 opacity-0'} duration-300 mt-3 w-full bg-white border-2 border-persion-orange rounded-md flex flex-col gap-2 items-start`}>
-          <li className="p-3 border-b border-b-persion-orange w-full"><Link className="" href="#about-me">About me</Link></li>
-          <li className="p-3 border-b border-b-persion-orange w-full"><Link href="#tech-stack">Tech Stack</Link></li>
-          <li className="p-3 border-b border-b-persion-orange w-full"><Link href="#projects">Projects</Link></li>
-          <li className="p-3 w-full"><Link href="#contact">Contact</Link></li>
+          <li className="p-3 border-b border-b-persion-orange w-full text-lg font-extralight"><Link className="" href="#about-me">About me</Link></li>
+          <li className="p-3 pt-1 border-b border-b-persion-orange w-full text-lg font-extralight"><Link href="#tech-stack">Tech Stack</Link></li>
+          <li className="p-3 pt-1 border-b border-b-persion-orange w-full text-lg font-extralight"><Link href="#projects">Projects</Link></li>
+          <li className="p-3 pt-1 w-full text-lg font-extralight"><Link href="#contact">Contact</Link></li>
         </ul>
       </section>
     </nav>
