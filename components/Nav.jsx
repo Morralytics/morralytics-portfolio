@@ -28,7 +28,7 @@ const Nav = () => {
         <div className="sm:hidden">
           <div className="flex flex-col items-end">
             <Bars3Icon
-              className="h-10 w-10"
+              className="h-10 w-10 fill-liver"
               onClick={() => setToggleDropdown((prev) => !prev)}
             />
           </div>
