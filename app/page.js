@@ -2,9 +2,9 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className='w-full flex flex-wrap justify-center items-center mt-16'>
+    <section className='w-full flex flex-wrap justify-center items-center mt-14 pl-5'>
       <div className="flex flex-col">
-        <p className="text-7xl w-1/2 font-bold ">FULL STACK DEVELOPER.</p>
+        <p className="text-7xl w-1/2 font-bold">FULL STACK DEVELOPER.</p>
         <section className="text-lg w-1/2 font-normal drop-shadow-md mt-4 p-1">
           <p>Central Oregon Based,</p>
           <p>Solutions Worldwide.</p>
