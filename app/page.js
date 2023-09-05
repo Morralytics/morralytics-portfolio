@@ -2,20 +2,21 @@ import Image from "next/image";
 
 const page = () => {
   return (
-    <section className='w-full flex flex-col'>
-      <div className="flex flex-col items-center">
-        <h1 className="text-4xl font-normal">Hello!</h1>
-        <p className="text-2xl font-thin">I'm Nick Morris</p>
-        <p className="text-2xl font-thin">A Full Stack Web Developer</p>
+    <section className='w-full flex flex-wrap justify-center items-center mt-16'>
+      <div className="flex flex-col">
+        <p className="text-7xl w-1/2 font-bold">FULL STACK DEVELOPER.</p>
+        <section className="text-lg w-1/2 font-normal mt-4 p-1">
+          <p>Central Oregon Based,</p>
+          <p>Solutions Worldwide.</p>
+        </section>
       </div>
-      <div className="flex justify-center mt-5">
+      <div className="flex mt-10">
         <Image
-          src='/assets/images/Me_BW_Adjusted.png'
+          src='/assets/images/Me_BW.png'
           alt="Profile Picture"
           width={240}
           height={240}
           className="rounded-full"
-        
         />
       </div>
     </section>
