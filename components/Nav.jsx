@@ -27,7 +27,7 @@ const Nav = () => {
 
         {/* Mobile nav bar as a dropdown */}
         <div className="sm:hidden">
-          <div className="flex flex-col items-end">
+          <div className="flex flex-col">
             <Bars3Icon
               className="h-10 w-10 fill-liver"
               onClick={() => setToggleDropdown((prev) => !prev)}

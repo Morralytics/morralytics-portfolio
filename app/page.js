@@ -22,9 +22,11 @@ const page = () => {
     // </section>
 
     <container>
-      <div className="w-full flex flex-col mt-14 px-5">
-        <div className="w-full text-black text-5xl font-bold">FULL <br />STACK<br />DEVELOPER.</div>
-        <div className="">
+      <div className="w-full flex flex-col mt-14 px-5 space-y-1">
+        <div className="w-full text-black text-5xl font-bold">FULL <br /></div>
+        <div className="w-full text-black text-5xl font-bold">STACK<br /></div>
+        <div className="w-full text-black text-5xl font-bold">DEVELOPER.</div>
+        <div className="space-y-1">
           <p className="w-full text-black text-xl font-light">Central Oregon Based,</p>
           <p className="w-full text-black text-xl font-light">Solutions Anywhere.</p>
         </div>
