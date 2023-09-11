@@ -1,11 +1,13 @@
 'use client'
 
 import ProfileLogo from "@components/ProfileLogo";
-import { ChevronDownIcon } from '@heroicons/react/24/solid'
+import { ChevronDownIcon } from '@heroicons/react/24/solid';
+import TechStack from "@components/TechStack";
 
 const page = () => {
   return (
     <container>
+      {/* Homepage */}
       <div className="w-full flex flex-col mt-14 px-5 sm:px-16 sm:mt-28 lg:px-56">
         <div className="sm:flex justify-between sm:mb-14 sm:items-center xl:justify-around">
           <div className="sm:flex flex-col">
@@ -30,6 +32,9 @@ const page = () => {
           onClick={() => { }}
         />
       </div>
+      
+      {/* Tech Stack */}
+      <TechStack />
     </container>
   )
 }
