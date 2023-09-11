@@ -7,7 +7,7 @@ const ProfileLogo = () => {
       <Image
         width={240}
         height={240}
-        className="rounded-full bg-gradient-to-tr from-persion-orange shadow-2xl p-1"
+        className="rounded-full bg-gradient-to-tr from-persion-orange shadow-2xl p-1 sm:w-[200px]"
         src="/assets/images/Me_BW2.png"
         alt="Profile Picture"
       />
