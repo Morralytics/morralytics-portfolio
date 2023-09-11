@@ -26,19 +26,19 @@ const Nav = () => {
         </Link>
         {/* Desktop nav bar */}
         <div className="hidden sm:flex sm:w-1/2 lg:flex lg:w-1/2 justify-center">
-              <div className="w-full text-black text-xl font-light text-center">
-                About
-              </div>
-              <div className="w-full text-black text-xl font-light text-center">
-                Tech Stack
-              </div>
-              <div className="w-full text-black text-xl font-light text-center">
-                Projects
-              </div>
-              <div className="w-full text-black text-xl font-light text-center">
-                Contact
-              </div>
+          <div className="w-full text-black text-xl font-light text-center">
+            About
           </div>
+          <div className="w-full text-black text-xl font-light text-center">
+            Tech Stack
+          </div>
+          <div className="w-full text-black text-xl font-light text-center">
+            Projects
+          </div>
+          <div className="w-full text-black text-xl font-light text-center">
+            Contact
+          </div>
+        </div>
         {/* Mobile nav bar as a dropdown */}
         <div className="sm:hidden">
           <div className="flex flex-col">
