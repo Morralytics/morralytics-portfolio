@@ -24,7 +24,9 @@ Once again, this is my refined Portfolio which takes on a bright and welcoming i
 
 ### 🔍 Preview
 
-As soon as my Portfolio becomes live, the link will be displayed here. In the meantime, I will have each step I have taken thus far. From my initial brainstorm, to stripped down wireframe concepts, to Figma design, and currently displayed on localhost!
+As soon as my Portfolio becomes live, the link will be displayed here. In the meantime, I will have each step I have taken thus far. From my initial brainstorm, to stripped down wireframe concepts, to Figma design, everything is up to date to display here.
+
+However, the new Portfolio is now currently live! View on Vercel hosting platform the design come to life. The project is still under development but I thought it would be great to get my Portfolio live as soon as possible. Enjoy!
 
 #### 🏡 Homepage
 
