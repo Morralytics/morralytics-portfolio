@@ -12,7 +12,7 @@ const Nav = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   return (
-    <nav className="w-full pt-5 px-4 sm:px-8 lg:px-28">
+    <nav className="w-full pt-5 px-4 sm:px-8 lg:px-28 xl:px-56">
       <section className="flex justify-between">
         {/* Logo image that links back to the main page */}
         <Link href="/" className="flex items-end">
