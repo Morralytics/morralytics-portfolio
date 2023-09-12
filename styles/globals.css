@@ -3,7 +3,13 @@
 @tailwind utilities;
 
 @layer base {
-    html {
-        font-family: 'Roboto', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont ;
-    }
+  html {
+    font-family: "Roboto", ui-sans-serif, system-ui, -apple-system,
+      BlinkMacSystemFont;
+  }
+
+  body {
+    overflow-y: hidden; /* Hide vertical scrollbar */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+  }
 }

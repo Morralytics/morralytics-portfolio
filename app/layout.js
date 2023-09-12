@@ -11,7 +11,7 @@ const layout = ({ children }) => {
   return (
     <html lang='en'>
       <body>
-        <main className='app'>
+        <main>
           <Nav />
           {children}
         </main>
