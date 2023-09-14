@@ -24,7 +24,6 @@ const page = () => {
           <ProfileLogo />
         </div>
         <div className="w-full text-xl py-5 text-center text-black text-base font-light xl:px-56">In Central Oregon, as a web developer, my life blends tech innovation with outdoor adventure. Against the backdrop of the Cascade Mountains, I craft websites and collaborate with local businesses, infusing my work with the region's unique spirit.</div>
-        <div className="w-10 h-10 left-[338px] top-[24px]" />
       </div>
       <div className="hidden sm:flex justify-center mt-20 xl:mt-48">
         <ChevronDownIcon
