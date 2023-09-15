@@ -19,7 +19,7 @@ const TechStack = () => {
       </div>
       <div className="flex flex-col w-3/4 sm:w-full mt-16 px-5 lg:px-28">
         <div className="text-center text-black text-5xl font-bold mb-16">
-          Tech Stack sm
+          Tech Stack
         </div>
 
         <div className="flex flex-col w-full justify-around items-center sm:items-start sm:flex-row sm:px-5">
