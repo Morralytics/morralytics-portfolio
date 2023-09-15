@@ -17,13 +17,13 @@ const TechStack = () => {
         <FontAwesomeIcon icon={faEnvira} className="h-16" />
         <FontAwesomeIcon icon={faFigma} className="h-16" />
       </div>
-      <div className="flex flex-col w-3/4 mt-16 px-5 sm:px-16 sm:mt-28 lg:px-56">
-        <div className="text-center text-black text-5xl font-bold mb-16 sm:mb-28">
+      <div className="flex flex-col w-3/4 sm:w-full mt-16 px-5 lg:px-56">
+        <div className="text-center text-black text-5xl font-bold mb-16">
           Tech Stack
         </div>
 
-        <div className="flex flex-col w-full justify-around items-center sm:flex-row">
-          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 border border-liver rounded-xl shadow shadow-persion-orange">
+        <div className="flex flex-col w-full justify-around items-center sm:items-start sm:flex-row">
+          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 min-[675px]:min-h-[320px] min-[733px]:min-h-[320px] sm:px-1 sm:min-h-[352px] md:min-h-[300px] min-[875px]:min-h-[268px] min-[886px]:min-h-[240px] min-[980px]:min-h-[200px] sm:mx-5 sm:justify-start border border-liver rounded-xl shadow shadow-persion-orange">
             <div className="w-full text-center text-black text-2xl font-normal underline py-3">
               Web Structure and Design
             </div>
@@ -33,17 +33,17 @@ const TechStack = () => {
             </div>
           </div>
 
-          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 border border-liver rounded-xl shadow shadow-persion-orange">
+          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 min-[675px]:min-h-[320px] min-[733px]:min-h-[320px] sm:px-1 sm:min-h-[352px] md:min-h-[300px] min-[875px]:min-h-[268px] min-[886px]:min-h-[240px] min-[980px]:min-h-[200px] sm:justify-start sm:mx-0 border border-liver rounded-xl shadow shadow-persion-orange">
             <div className="text-center text-black text-2xl font-normal underline py-3">
               Data and Organization
             </div>
             <div className="text-center text-black text-xl font-light pb-3">
-              For data management, I excel with MongoDB, ensuring efficient
+              In data management, I excel with MongoDB, ensuring efficient
               organization, and for collaborative design, I leverage Figma.
             </div>
           </div>
 
-          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 border border-liver rounded-xl shadow shadow-persion-orange">
+          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 min-[675px]:min-h-[320px] min-[733px]:min-h-[320px] sm:px-1 sm:min-h-[352px] md:min-h-[300px] min-[875px]:min-h-[268px] min-[886px]:min-h-[240px] min-[980px]:min-h-[200px] sm:justify-start sm:mx-5 border border-liver rounded-xl shadow shadow-persion-orange">
             <div className="text-center text-black text-2xl font-normal underline py-3">
               Frontend Development
             </div>
