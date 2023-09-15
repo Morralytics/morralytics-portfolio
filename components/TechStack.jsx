@@ -23,31 +23,31 @@ const TechStack = () => {
         </div>
 
         <div className="flex flex-col w-full justify-around items-center sm:flex-row">
-          <div className="flex flex-col w-full justify-center items-center px-5 mb-8 border">
-            <div className="text-center text-black text-2xl font-normal underline">
+          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 border border-liver rounded-xl shadow shadow-persion-orange">
+            <div className="w-full text-center text-black text-2xl font-normal underline py-3">
               Web Structure and Design
             </div>
-            <div className="text-center text-black text-xl font-light">
+            <div className="text-center text-black text-xl font-light pb-3">
               Skilled in HTML5 and CSS3, I excel at crafting visually engaging
               and responsive web designs using up-to-date coding techniques.
             </div>
           </div>
 
-          <div className="flex flex-col w-full justify-center items-center px-5 mb-8 border">
-            <div className="text-center text-black text-2xl font-normal underline">
+          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 border border-liver rounded-xl shadow shadow-persion-orange">
+            <div className="text-center text-black text-2xl font-normal underline py-3">
               Data and Organization
             </div>
-            <div className="text-center text-black text-xl font-light">
+            <div className="text-center text-black text-xl font-light pb-3">
               For data management, I excel with MongoDB, ensuring efficient
               organization, and for collaborative design, I leverage Figma.
             </div>
           </div>
 
-          <div className="flex flex-col w-full justify-center items-center px-5 mb-8 border">
-            <div className="text-center text-black text-2xl font-normal underline">
+          <div className="flex flex-col w-full justify-center items-center px-3 mb-8 border border-liver rounded-xl shadow shadow-persion-orange">
+            <div className="text-center text-black text-2xl font-normal underline py-3">
               Frontend Development
             </div>
-            <div className="text-center text-black text-xl font-light">
+            <div className="text-center text-black text-xl font-light pb-3">
               Passionate about UI/UX, I specialize in React and Next.js,
               creating high-performance web applications with cutting-edge tools
               and technologies.
