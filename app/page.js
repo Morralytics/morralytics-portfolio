@@ -3,6 +3,7 @@
 import ProfileLogo from "@components/ProfileLogo";
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import TechStack from "@components/TechStack";
+import Portfolio from "@components/Portfolio";
 
 const page = () => {
   return (
@@ -34,6 +35,9 @@ const page = () => {
       
       {/* Tech Stack */}
       <TechStack />
+
+      {/* Portfolio */}
+      <Portfolio />
     </container>
   )
 }
