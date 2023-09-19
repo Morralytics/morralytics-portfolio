@@ -27,7 +27,7 @@ const Portfolio = () => {
             src="/assets/videos/Edits.mp4"
             autoplay=""
             muted
-            defaultMuted
+            playsInline
           />
         </div>
         <img src="/" />
