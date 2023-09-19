@@ -25,7 +25,7 @@ const Portfolio = () => {
           <video
             className="mt-12"
             src="/assets/videos/GlazedAndConfusedVideoP2.mp4"
-            autoplay=""
+            autoPlay
             muted
             playsInline
           />
