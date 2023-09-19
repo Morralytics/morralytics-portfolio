@@ -24,13 +24,13 @@ const Portfolio = () => {
         <div>
           <video
             className="mt-12"
-            src="/assets/videos/Edits.mp4"
+            src="/assets/videos/GlazedAndConfusedVideoP2.mp4"
             autoplay=""
             muted
             playsInline
           />
         </div>
-        <img src="/" />
+        {/* <img src="/" />
         <div>
           <div></div>
           <div>
@@ -39,7 +39,7 @@ const Portfolio = () => {
           <div>
             <img src="/" />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
