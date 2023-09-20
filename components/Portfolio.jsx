@@ -54,7 +54,7 @@ const Portfolio = () => {
             <img src="/assets/images/Meet-IO-Cropped.png" className=" h-full" />
           </div>
           <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img src="/assets/images/Home-Chayil-Charitable-Services-Home.png" className="h-full" />
+            <img src="/assets/images/Home-Chayil-Charitable-Services-Home-Cropped.png" className="h-full" />
           </div>
           <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
             <img src="/assets/images/Gen-io-Desktop-Main-Cropped.png" className="h-full" />
