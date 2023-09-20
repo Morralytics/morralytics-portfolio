@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
@@ -50,14 +48,24 @@ const Portfolio = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img src="/assets/images/Meet-IO-Cropped.png" className=" h-full" />
+          <div className={`group relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange hover:bg-[#F7F7F8]`}>
+            <img
+              src="/assets/images/Meet-IO-Cropped.png"
+              className=" h-full hover:opacity-20"
+            />
+            <div className="hidden group-hover:flex absolute top-0">test</div>
           </div>
-          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img src="/assets/images/Home-Chayil-Charitable-Services-Home-Cropped.png" className="h-full" />
+          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange hover:bg-[#F7F7F8]">
+            <img
+              src="/assets/images/Home-Chayil-Charitable-Services-Home-Cropped.png"
+              className="h-full hover:opacity-20"
+            />
           </div>
-          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img src="/assets/images/Gen-io-Desktop-Main-Cropped.png" className="h-full" />
+          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange hover:bg-[#F7F7F8]">
+            <img
+              src="/assets/images/Gen-io-Desktop-Main-Cropped.png"
+              className="h-full hover:opacity-20"
+            />
           </div>
         </div>
       </div>
