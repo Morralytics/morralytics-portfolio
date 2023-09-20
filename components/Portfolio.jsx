@@ -1,4 +1,8 @@
-import React from "react";
+import Link from "next/link";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 const Portfolio = () => {
   return (
@@ -9,21 +13,21 @@ const Portfolio = () => {
             My Work Portfolio
           </div>
           <div>
-            <p className="w-full text-black text-2xl font-light">
+            <p className="w-full mt-3 text-black text-2xl font-light">
               Check out my favorite project,
             </p>
             <p className="w-full text-black text-2xl font-light">
               Glazed & Confused
             </p>
           </div>
-          <div>
-            {/* <Github />
-                <Google /> */}
+          <div className="flex justify-between w-1/5 mt-3">
+            <a href="https://github.com/Morralytics/Glazed-and-Confused" target="_blank" className=""><FontAwesomeIcon icon={faGithub} className="fa-2xl hover:fa-bounce" /></a>
+            <a href="https://glazed-and-confused-app.herokuapp.com/" target="_blank"><FontAwesomeIcon icon={faGoogle} className="fa-2xl" /></a>
           </div>
         </div>
         <div>
           <video
-            className="mt-12"
+            className="mt-8"
             src="/assets/videos/GlazedAndConfusedVideoP2.mp4"
             autoPlay
             muted
