@@ -21,8 +21,22 @@ const Portfolio = () => {
             </p>
           </div>
           <div className="flex justify-between w-1/5 mt-3">
-            <a href="https://github.com/Morralytics/Glazed-and-Confused" target="_blank" className=""><FontAwesomeIcon icon={faGithub} className="fa-2xl hover:fa-bounce" /></a>
-            <a href="https://glazed-and-confused-app.herokuapp.com/" target="_blank"><FontAwesomeIcon icon={faGoogle} className="fa-2xl" /></a>
+            <a
+              href="https://github.com/Morralytics/Glazed-and-Confused"
+              target="_blank"
+              className=""
+            >
+              <FontAwesomeIcon
+                icon={faGithub}
+                className="fa-2xl hover:fa-bounce"
+              />
+            </a>
+            <a
+              href="https://glazed-and-confused-app.herokuapp.com/"
+              target="_blank"
+            >
+              <FontAwesomeIcon icon={faGoogle} className="fa-2xl" />
+            </a>
           </div>
         </div>
         <div>
@@ -34,16 +48,18 @@ const Portfolio = () => {
             playsInline
           />
         </div>
-        {/* <img src="/" />
-        <div>
-          <div></div>
-          <div>
-            <img src="/" />
+
+        <div className="flex flex-col items-center">
+          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+            <img src="/assets/images/Meet-IO-Cropped.png" className=" h-full" />
           </div>
-          <div>
-            <img src="/" />
+          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+            <img src="/assets/images/Home-Chayil-Charitable-Services-Home.png" className="h-full" />
           </div>
-        </div> */}
+          <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+            <img src="/assets/images/Gen-io-Desktop-Main-Cropped.png" className="h-full" />
+          </div>
+        </div>
       </div>
     </section>
   );
