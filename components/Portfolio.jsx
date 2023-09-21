@@ -24,10 +24,7 @@ const Portfolio = () => {
               target="_blank"
               className=""
             >
-              <FontAwesomeIcon
-                icon={faGithub}
-                className="fa-2xl hover:fa-bounce"
-              />
+              <FontAwesomeIcon icon={faGithub} className="fa-2xl" />
             </a>
             <a
               href="https://glazed-and-confused-app.herokuapp.com/"
@@ -48,12 +45,23 @@ const Portfolio = () => {
         </div>
 
         <div className="flex flex-col items-center">
-          <div className={`group relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange hover:bg-[#F7F7F8]`}>
-            <img
-              src="/assets/images/Meet-IO-Cropped.png"
-              className=" h-full hover:opacity-20"
-            />
-            <div className="hidden group-hover:flex absolute top-0">test</div>
+          <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+            <img src="/assets/images/Meet-IO-Cropped.png"
+              className=" h-full" />
+            <div className="hidden group-hover:flex group-hover:bg-[#F7F7F8] group-hover:opacity-80 absolute top-0 h-full">
+              <div className="opacity-100">
+                <h1>Meet-IO</h1>
+                <p>
+                  Meet-IO is an application rooted to help assist anyone who
+                  struggles to keep their plans with family or their work
+                  schedule correctly planned.
+                </p>
+                <div>
+                  <FontAwesomeIcon icon={faGithub} className="fa-2xl" />
+                  <FontAwesomeIcon icon={faGoogle} className="fa-2xl" />
+                </div>
+              </div>
+            </div>
           </div>
           <div className="mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange hover:bg-[#F7F7F8]">
             <img

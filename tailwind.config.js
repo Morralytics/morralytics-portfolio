@@ -13,7 +13,7 @@ module.exports = {
       colors: {
         'persion-orange': '#BE8A60',
         'liver': '#5C4742',
-      }
+      },
     },
   },
   plugins: [],
