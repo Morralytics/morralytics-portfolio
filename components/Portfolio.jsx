@@ -30,76 +30,81 @@ const Portfolio = () => {
               href="https://glazed-and-confused-app.herokuapp.com/"
               target="_blank"
             >
-              <FontAwesomeIcon icon={faGoogle} className="fa-2xl" />
+              <FontAwesomeIcon icon={faGoogle} className="fa-2xl sm:pr-12" />
             </a>
           </div>
         </div>
-        <div>
-          <video
-            className="mt-8"
-            src="/assets/videos/GlazedAndConfusedVideoP2.mp4"
-            autoPlay
-            muted
-            playsInline
-          />
-        </div>
+        <div className="sm:flex">
+          <div>
+            <video
+              className="mt-8 sm:max-w-[320px] sm:pt-2"
+              src="/assets/videos/GlazedAndConfusedVideoP2.mp4"
+              autoPlay
+              muted
+              playsInline
+            />
+          </div>
 
-        <div className="flex flex-col items-center">
-          <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img src="/assets/images/Meet-IO-Cropped.png" className=" h-full" />
-            <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
-              <div className="flex flex-col items-center opacity-100 px-6">
-                <h1 className="font-bold text-2xl">Meet-IO</h1>
-                <p className="text-black text-center">
-                  Meet-IO is an application rooted to help assist anyone who
-                  struggles to keep their plans with family or their work
-                  schedule correctly planned.
-                </p>
-                <div className="text-black py-5">
-                  <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                  <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+          <div className="flex flex-col items-center sm:-pt-5">
+            <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+              <img
+                src="/assets/images/Meet-IO-Cropped.png"
+                className=" h-full"
+              />
+              <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
+                <div className="flex flex-col items-center opacity-100 px-6">
+                  <h1 className="font-bold text-2xl">Meet-IO</h1>
+                  <p className="text-black text-center">
+                    Meet-IO is an application rooted to help assist anyone who
+                    struggles to keep their plans with family or their work
+                    schedule correctly planned.
+                  </p>
+                  <div className="text-black py-5">
+                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
+                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img
-              src="/assets/images/Home-Chayil-Charitable-Services-Home-Cropped.png"
-              className="h-full hover:opacity-20"
-            />
-            <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
-              <div className="flex flex-col items-center opacity-100 px-6">
-                <h1 className="font-bold text-2xl text-center">
-                  Chayil Charitable Services
-                </h1>
-                <p className="text-black text-center">
-                  My team of developers produced a fully response web page which
-                  imforms about new events, create blog posts, and receive
-                  donations towards a new non-profit.
-                </p>
-                <div className="text-black py-2">
-                  <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                  <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+            <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+              <img
+                src="/assets/images/Home-Chayil-Charitable-Services-Home-Cropped.png"
+                className="h-full hover:opacity-20"
+              />
+              <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
+                <div className="flex flex-col items-center opacity-100 px-6">
+                  <h1 className="font-bold text-2xl text-center">
+                    Chayil Charitable Services
+                  </h1>
+                  <p className="text-black text-center">
+                    My team of developers produced a fully response web page
+                    which imforms about new events, create blog posts, and
+                    receive donations towards a new non-profit.
+                  </p>
+                  <div className="text-black py-2">
+                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
+                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
-            <img
-              src="/assets/images/Gen-io-Desktop-Main-Cropped.png"
-              className="h-full hover:opacity-20"
-            />
-            <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
-              <div className="flex flex-col items-center opacity-100 px-6">
-                <h1 className="font-bold text-2xl">Gen-io</h1>
-                <p className="text-black text-center">
-                  Gen-io is a tool to that allows users to share and discover
-                  ChatGPT prompts that can assist through the development
-                  process.
-                </p>
-                <div className="text-black py-5">
-                  <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                  <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+            <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-72 h-64 shadow-md shadow-persion-orange">
+              <img
+                src="/assets/images/Gen-io-Desktop-Main-Cropped.png"
+                className="h-full hover:opacity-20"
+              />
+              <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
+                <div className="flex flex-col items-center opacity-100 px-6">
+                  <h1 className="font-bold text-2xl">Gen-io</h1>
+                  <p className="text-black text-center">
+                    Gen-io is a tool to that allows users to share and discover
+                    ChatGPT prompts that can assist through the development
+                    process.
+                  </p>
+                  <div className="text-black py-5">
+                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
+                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                  </div>
                 </div>
               </div>
             </div>
