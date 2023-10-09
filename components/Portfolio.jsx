@@ -111,8 +111,8 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="hidden sm:flex w-full flex flex-col mt-14 px-5 sm:px-16 sm:mt-28 lg:px-56">
-        <div className="flex items-center">
+      <div className="hidden sm:flex w-full flex flex-col mt-14 px-5 sm:px-16 sm:mt-28 justify-center items-center">
+        <div className="flex items-center lg:px-44">
           <div className="flex flex-col">
             <div className="w-full text-black text-5xl font-bold md:w-1/4">
               My Work Portfolio
@@ -152,7 +152,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="flex">
-          <div className="flex flex-col items-center sm:-pt-5 sm:flex-row sm:flex-wrap sm:w-full sm:justify-center">
+          <div className="flex flex-col items-center sm:-pt-5 sm:flex-row sm:flex-wrap sm:w-full lg:w-fit sm:justify-center lg:flex-nowrap">
             <div className="group hover:bg-[#F7F7F8] relative mx-5 my-5 rounded-xl overflow-hidden border border-liver w-70 h-60 shadow-md shadow-persion-orange">
               <img
                 src="/assets/images/Meet-IO-Cropped.png"
