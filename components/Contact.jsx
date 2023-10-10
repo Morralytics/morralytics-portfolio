@@ -1,16 +1,34 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+
+import Image from "next/image";
+import Link from "next/link";
 
 const Contact = () => {
   return (
     <section className="flex flex-col items-center">
       <div className="flex w-full justify-around items-center mt-16 py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
-        
+        <Link href="https://github.com/Morralytics" target="_blank">
+          <FontAwesomeIcon icon={faGithub} className="h-14" />
+        </Link>
+        <Link href="/">
+          <Image
+            src="/assets/icons/PortfolioLogo.png"
+            alt="Portfolio Logo"
+            width={65}
+            height={65}
+          />
+        </Link>
+        <Link href="https://www.linkedin.com/in/nick-morris-morralytics/" target="_blank">
+          <FontAwesomeIcon icon={faLinkedin} className="h-14" />
+        </Link>
       </div>
       <div className="flex flex-col items-center w-3/4 sm:w-full mt-16 px-5 lg:px-28">
         <div className="text-center text-black text-5xl font-bold mb-16">
-          Tech Stack
+          Contact Me
         </div>
 
         <div className="flex flex-col w-full justify-around items-center sm:items-start sm:flex-row sm:px-5 lg:w-3/4">
@@ -49,11 +67,11 @@ const Contact = () => {
       <div className="hidden sm:flex justify-center mt-20 sm:mb-14 xl:mt-48">
         <ChevronUpIcon
           className="h-10 w-10 hover:cursor-pointer"
-          onClick={() => { }}
+          onClick={() => {}}
         />
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default Contact
+export default Contact;
