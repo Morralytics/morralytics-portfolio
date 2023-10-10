@@ -4,6 +4,7 @@ import ProfileLogo from "@components/ProfileLogo";
 import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import TechStack from "@components/TechStack";
 import Portfolio from "@components/Portfolio";
+import Contact from "@components/Contact";
 
 const page = () => {
   return (
@@ -39,9 +40,8 @@ const page = () => {
       </div>
       {/* Portfolio */}
       <Portfolio />
-      <div className="flex w-full justify-around items-center mt-8 py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-14 lg:px-56">
-      </div>
       {/* Contact Me */}
+      <Contact />
     </container>
   )
 }
