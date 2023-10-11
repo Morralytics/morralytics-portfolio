@@ -90,6 +90,12 @@ const Contact = () => {
               </div>
             </div>
           </div>
+          <div className="justify-center my-5">
+            <ChevronUpIcon
+              className="h-10 w-10 hover:cursor-pointer"
+              onClick={() => {}}
+            />
+          </div>
         </div>
 
         {/* Desktop/Tablet */}
