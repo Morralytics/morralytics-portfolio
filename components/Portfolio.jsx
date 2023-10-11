@@ -3,9 +3,11 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 
 import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import Link from "next/link";
 const Portfolio = () => {
   return (
     <section className="sm:-mt-24">
+      {/* Mobile */}
       <div className="sm:hidden w-full flex flex-col mt-14 px-5 sm:px-16 lg:px-56">
         <div className="flex flex-col">
           <div className="w-full text-black text-5xl font-bold md:w-1/4">
@@ -61,8 +63,24 @@ const Portfolio = () => {
                     schedule correctly planned.
                   </p>
                   <div className="text-black py-5">
-                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                    <Link
+                      href="https://github.com/Morralytics/Meet-IO"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
+                    <Link
+                      href="https://meetio-workspace.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGoogle}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -83,8 +101,24 @@ const Portfolio = () => {
                     receive donations towards a new non-profit.
                   </p>
                   <div className="text-black py-2">
-                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                    <Link
+                      href="https://github.com/Morralytics/Chayil-48in48"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
+                    <Link
+                      href="https://chayilcharitableservices.com/"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGoogle}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -103,8 +137,21 @@ const Portfolio = () => {
                     process.
                   </p>
                   <div className="text-black py-5">
-                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                    <Link
+                      href="https://github.com/Morralytics/gen-io"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
+                    <Link href="https://gen-io.vercel.app/" target="_blank">
+                      <FontAwesomeIcon
+                        icon={faGoogle}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -112,6 +159,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
+      {/* Desktop/Tablet */}
       <div className="hidden sm:flex w-full flex flex-col mt-14 px-5 sm:px-16 sm:mt-28 justify-center items-center">
         <div className="flex items-center lg:px-44">
           <div className="flex flex-col">
@@ -168,8 +216,24 @@ const Portfolio = () => {
                     schedule correctly planned.
                   </p>
                   <div className="text-black py-5">
-                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                    <Link
+                      href="https://github.com/Morralytics/Meet-IO"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
+                    <Link
+                      href="https://meetio-workspace.herokuapp.com/"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGoogle}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -190,8 +254,24 @@ const Portfolio = () => {
                     receive donations towards a new non-profit.
                   </p>
                   <div className="text-black py-2">
-                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                    <Link
+                      href="https://github.com/Morralytics/Chayil-48in48"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
+                    <Link
+                      href="https://chayilcharitableservices.com/"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGoogle}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -210,8 +290,21 @@ const Portfolio = () => {
                     process.
                   </p>
                   <div className="text-black py-5">
-                    <FontAwesomeIcon icon={faGithub} className="fa-2xl px-2" />
-                    <FontAwesomeIcon icon={faGoogle} className="fa-2xl px-2" />
+                    <Link
+                      href="https://github.com/Morralytics/gen-io"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        icon={faGithub}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
+                    <Link href="https://gen-io.vercel.app/" target="_blank">
+                      <FontAwesomeIcon
+                        icon={faGoogle}
+                        className="fa-2xl px-2"
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -222,7 +315,7 @@ const Portfolio = () => {
       <div className="hidden sm:flex justify-center mt-20 sm:mb-14 xl:mt-48">
         <ChevronDownIcon
           className="h-10 w-10 hover:cursor-pointer"
-          onClick={() => { }}
+          onClick={() => {}}
         />
       </div>
     </section>
