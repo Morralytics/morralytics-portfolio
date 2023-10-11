@@ -2,7 +2,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faGoogle } from "@fortawesome/free-brands-svg-icons";
 
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import NavigationCursor from "./NavCursorDown";
+
 import Link from "next/link";
 const Portfolio = () => {
   return (
@@ -312,12 +313,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <div className="hidden sm:flex justify-center mt-20 sm:mb-14 xl:mt-48">
-        <ChevronDownIcon
-          className="h-10 w-10 hover:cursor-pointer"
-          onClick={() => {}}
-        />
-      </div>
+      <NavigationCursor />
     </section>
   );
 };

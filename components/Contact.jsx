@@ -6,18 +6,13 @@ import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
+import NavCursor from "./NavCursorDown";
+import MobileNavCursor from "./MobileNavCursor";
+
 import Image from "next/image";
 import Link from "next/link";
 
 const Contact = () => {
-
-  const returnToTop = () => {
-    window.scrollTo({
-      top:0,
-      behavior: 'smooth'
-    });
-  };
-
   return (
     <section className="flex flex-col items-center">
       <div className="flex w-full justify-around items-center mt-16 py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
@@ -98,12 +93,7 @@ const Contact = () => {
               </div>
             </div>
           </div>
-          <div className="justify-center my-5">
-            <ChevronUpIcon
-              className="h-10 w-10 hover:cursor-pointer"
-              onClick={returnToTop}
-            />
-          </div>
+          <MobileNavCursor />
         </div>
 
         {/* Desktop/Tablet */}
@@ -149,12 +139,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <div className="hidden sm:flex justify-center mt-20 sm:mb-14 xl:mt-48">
-        <ChevronUpIcon
-          className="h-10 w-10 hover:cursor-pointer"
-          onClick={returnToTop}
-        />
-      </div>
+      <NavCursor />
     </section>
   );
 };

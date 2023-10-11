@@ -5,7 +5,8 @@ import { faReact } from "@fortawesome/free-brands-svg-icons";
 import { faEnvira } from "@fortawesome/free-brands-svg-icons";
 import { faFigma } from "@fortawesome/free-brands-svg-icons";
 
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import NavigationCursor from "./NavCursorDown";
+import Filler from "./Filler";
 
 const TechStack = () => {
   return (
@@ -55,12 +56,8 @@ const TechStack = () => {
           </div>
         </div>
       </div>
-      <div className="hidden sm:flex justify-center mt-20 sm:mb-14 xl:mt-48">
-        <ChevronDownIcon
-          className="h-10 w-10 hover:cursor-pointer"
-          onClick={() => { }}
-        />
-      </div>
+      <NavigationCursor />
+      <Filler />
     </section>
   );
 };
