@@ -38,14 +38,15 @@ const Contact = () => {
         <div className="flex flex-col w-full items-center sm:hidden">
           {/* Contact form */}
           <div className="flex flex-col w-full mb-8">
-            <form className="flex flex-col">
+            <form className="flex flex-col last:items-end">
               <input
                 type="text"
                 placeholder="First Name"
-                className="border w-full"
+                className="border border-liver rounded-md text-liver w-full py-2 px-2 my-1.5"
               />
-              <input type="text" placeholder="Email" className="border w-full" />
-              <textarea placeholder="Message" rows="5" className="border w-full" />
+              <input type="text" placeholder="Email" className="border border-liver rounded-md text-liver w-full py-2 px-2 my-1.5" />
+              <textarea placeholder="Message" rows="5" className="border border-liver rounded-md text-liver w-full py-2 px-2 my-1.5 resize-none" />
+              <input type="submit" className="rounded-md text-white w-1/4 py-2 px-2 my-1.5 bg-gradient-to-b from-persion-orange to-[#CDA584]"/>
             </form>
           </div>
           {/* Map + Extras */}
