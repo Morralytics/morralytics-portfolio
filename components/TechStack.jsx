@@ -10,8 +10,8 @@ import Filler from "./Filler";
 
 const TechStack = () => {
   return (
-    <section className="flex flex-col items-center">
-      <div className="flex w-full justify-around items-center mt-16 py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
+    <section className="flex flex-col items-center" id="tech_stack">
+      <div className="flex w-full justify-around items-center py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
         <FontAwesomeIcon icon={faHtml5} className="h-16" />
         <FontAwesomeIcon icon={faCss3Alt} className="h-16" />
         <FontAwesomeIcon icon={faReact} className="h-16" />

@@ -12,7 +12,7 @@ const Nav = () => {
   const [toggleDropdown, setToggleDropdown] = useState(false);
 
   return (
-    <nav className="w-full mt-5 px-4 sm:px-8 lg:px-28 xl:px-56">
+    <nav className="w-full mt-5 px-4 sm:px-8 lg:px-28 xl:px-56" id="nav">
       <section className="flex justify-between">
         {/* Logo image that links back to the main page */}
         <Link href="/" className="flex items-end">
@@ -58,18 +58,18 @@ const Nav = () => {
           } duration-300 mt-3 w-full bg-white border-2 border-persion-orange rounded-md flex flex-col gap-2 items-start`}
         >
           <li className="p-3 border-b border-b-persion-orange w-full text-lg font-extralight">
-            <Link className="" href="#about-me">
+            <Link className="" href="#nav" onClick={() => setToggleDropdown((prev) => !prev)}>
               About me
             </Link>
           </li>
           <li className="p-3 pt-1 border-b border-b-persion-orange w-full text-lg font-extralight">
-            <Link href="#tech-stack">Tech Stack</Link>
+            <Link href="#tech_stack" onClick={() => setToggleDropdown((prev) => !prev)}>Tech Stack</Link>
           </li>
           <li className="p-3 pt-1 border-b border-b-persion-orange w-full text-lg font-extralight">
-            <Link href="#projects">Projects</Link>
+            <Link href="#portfolio" onClick={() => setToggleDropdown((prev) => !prev)}>Portfolio</Link>
           </li>
           <li className="p-3 pt-1 w-full text-lg font-extralight">
-            <Link href="#contact">Contact</Link>
+            <Link href="#contact_me" onClick={() => setToggleDropdown((prev) => !prev)}>Contact</Link>
           </li>
         </ul>
       </section>

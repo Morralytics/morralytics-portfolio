@@ -7,7 +7,7 @@ import NavigationCursor from "./NavCursorDown";
 import Link from "next/link";
 const Portfolio = () => {
   return (
-    <section className="sm:-mt-24">
+    <section className="mb-16 sm:-mt-24" id="portfolio">
       {/* Mobile */}
       <div className="sm:hidden w-full flex flex-col mt-14 px-5 sm:px-16 lg:px-56">
         <div className="flex flex-col">

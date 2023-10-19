@@ -14,8 +14,8 @@ import Link from "next/link";
 
 const Contact = () => {
   return (
-    <section className="flex flex-col items-center">
-      <div className="flex w-full justify-around items-center mt-16 py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
+    <section className="flex flex-col items-center" id="contact_me">
+      <div className="flex w-full justify-around items-center py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
         <Link href="https://github.com/Morralytics" target="_blank">
           <FontAwesomeIcon icon={faGithub} className="h-14" />
         </Link>

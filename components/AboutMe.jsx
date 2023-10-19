@@ -4,7 +4,7 @@ import NavigationCursor from "./NavCursorDown";
 
 const AboutMe = () => {
   return (
-    <section>
+    <section className="mb-16" id="about_me">
       <div className="w-full flex flex-col mt-14 px-5 sm:px-16 sm:mt-28 lg:px-56">
         <div className="sm:flex justify-between sm:mb-14 sm:items-center xl:justify-around">
           <div className="sm:flex flex-col">
