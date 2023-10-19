@@ -91,7 +91,7 @@ const Portfolio = () => {
                 src="/assets/images/Home-Chayil-Charitable-Services-Home-Cropped.png"
                 className="h-full hover:opacity-20"
               />
-              <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0">
+              <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
                 <div className="flex flex-col items-center opacity-100 px-4">
                   <h1 className="font-bold text-2xl text-center">
                     Chayil Charitable Services
@@ -313,7 +313,6 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      <NavigationCursor />
     </section>
   );
 };

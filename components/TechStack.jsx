@@ -56,7 +56,6 @@ const TechStack = () => {
           </div>
         </div>
       </div>
-      <NavigationCursor />
       <Filler />
     </section>
   );

@@ -27,16 +27,16 @@ const Nav = () => {
         {/* Desktop nav bar */}
         <div className="hidden sm:flex sm:w-1/2 lg:flex lg:w-1/2 justify-center">
           <div className="w-full text-black text-xl font-light text-center">
-            <span className="hover:cursor-pointer">About</span>
+            <Link href="#nav"><span className="hover:cursor-pointer">About</span></Link>
           </div>
           <div className="w-full text-black text-xl font-light text-center">
-          <span className="hover:cursor-pointer">Tech Stack</span>
+          <Link href="#tech_stack"><span className="hover:cursor-pointer">Tech Stack</span></Link>
           </div>
           <div className="w-full text-black text-xl font-light text-center">
-          <span className="hover:cursor-pointer">Projects</span>
+          <Link href="#portfolio"><span className="hover:cursor-pointer">Projects</span></Link>
           </div>
           <div className="w-full text-black text-xl font-light text-center">
-          <span className="hover:cursor-pointer">Contact</span>
+          <Link href="#contact_me"><span className="hover:cursor-pointer">Contact</span></Link>
           </div>
         </div>
         {/* Mobile nav bar as a dropdown */}
