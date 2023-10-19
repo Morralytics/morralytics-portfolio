@@ -175,7 +175,7 @@ const Portfolio = () => {
                 Glazed & Confused
               </p>
             </div>
-            <div className="flex justify-between w-1/5 mt-3">
+            <div className="flex justify-between w-1/5 sm:w-1/4 md:w-1/3 mt-3">
               <a
                 href="https://github.com/Morralytics/Glazed-and-Confused"
                 target="_blank"
@@ -187,7 +187,7 @@ const Portfolio = () => {
                 href="https://glazed-and-confused-app.herokuapp.com/"
                 target="_blank"
               >
-                <FontAwesomeIcon icon={faGoogle} className="fa-2xl sm:pr-12" />
+                <FontAwesomeIcon icon={faGoogle} className="fa-2xl" />
               </a>
             </div>
           </div>
@@ -245,7 +245,7 @@ const Portfolio = () => {
                 className="h-full hover:opacity-20"
               />
               <div className="hidden group-hover:flex flex-col group-hover:bg-[#F7F7F8] group-hover:opacity-[.85] absolute top-0 h-full">
-                <div className="flex flex-col items-center opacity-100 px-6">
+                <div className="flex flex-col items-center opacity-100 px-6 sm:px-4 md:px-2">
                   <h1 className="font-bold text-2xl text-center">
                     Chayil Charitable Services
                   </h1>
