@@ -1,13 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import { ChevronUpIcon } from "@heroicons/react/24/solid";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
 import NavCursor from "./NavCursorDown";
 import MobileNavCursor from "./MobileNavCursor";
+import ContactTags from "./ContactTags";
 
 import Image from "next/image";
 import Link from "next/link";
@@ -15,7 +13,7 @@ import Link from "next/link";
 const Contact = () => {
   return (
     <section className="flex flex-col items-center" id="contact_me">
-      <div className="flex w-full justify-around items-center py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 sm:mt-28 lg:px-56">
+      <div className="flex w-full justify-around items-center py-8 w-full bg-[#F7F7F8] px-5 sm:px-16 lg:px-56">
         <Link href="https://github.com/Morralytics" target="_blank">
           <FontAwesomeIcon icon={faGithub} className="h-14" />
         </Link>
@@ -73,33 +71,21 @@ const Contact = () => {
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22936.895343512537!2d-121.32910965030777!3d44.060397544811586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b8c0ffa5d3d251%3A0x1088e7acc720d1b4!2sBend%2C%20OR!5e0!3m2!1sen!2sus!4v1696975263536!5m2!1sen!2sus"
                 width="300"
                 height="225"
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
                 className="w-full"
               ></iframe>
             </div>
           </div>
-          <div className="flex flex-col w-full pb-3">
-            <h1 className="text-black font-semibold text-md pb-3">CONTACTS</h1>
-            <div className="flex">
-              <div className="flex flex-col justify-between py-1 pr-3">
-                <FontAwesomeIcon icon={faLocationDot} className="h-4" />
-                <FontAwesomeIcon icon={faEnvelope} className="h-4" />
-              </div>
-              <div className="flex flex-col">
-                <p className="pb-1">Bend, Oregon USA</p>
-                <p>morralytics@gmail.com</p>
-              </div>
-            </div>
-          </div>
+          <ContactTags />
           <MobileNavCursor />
         </div>
 
         {/* Desktop/Tablet */}
-        <div className="hidden sm:flex w-full items-center sm:px-5 lg:w-3/4">
+        <div className="hidden sm:flex w-full items-center sm:items-start sm:px-5">
           {/* Contact form */}
-          <div className="flex flex-col w-full mb-2">
+          <div className="flex flex-col w-full mb-2 sm:px-5 sm:pt-3">
             <form className="flex flex-col last:items-end">
               <input
                 type="text"
@@ -123,23 +109,24 @@ const Contact = () => {
             </form>
           </div>
           {/* Map + Extras */}
-          <div className="flex flex-col w-full mb-8">
+          <div className="flex flex-col w-full mb-8 sm:px-5">
             <div className="text-black font-semibold text-md py-3">
               <p>LETS GET A COFFEE!</p>
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22936.895343512537!2d-121.32910965030777!3d44.060397544811586!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54b8c0ffa5d3d251%3A0x1088e7acc720d1b4!2sBend%2C%20OR!5e0!3m2!1sen!2sus!4v1696975263536!5m2!1sen!2sus"
                 width="300"
                 height="225"
-                allowfullscreen=""
+                allowFullScreen=""
                 loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
+                referrerPolicy="no-referrer-when-downgrade"
                 className="w-full"
               ></iframe>
             </div>
+            <ContactTags />
           </div>
+          
         </div>
       </div>
-      <NavCursor />
     </section>
   );
 };
