@@ -1,6 +1,6 @@
 import { ChevronUpIcon } from "@heroicons/react/24/solid";
 
-const MobileNavCursor = () => {
+const NavCursorUp = () => {
 
     const returnToTop = () => {
         window.scrollTo({
@@ -10,7 +10,7 @@ const MobileNavCursor = () => {
       };
       
   return (
-    <div className="justify-center my-5">
+    <div className="flex justify-center my-5">
       <ChevronUpIcon
         className="h-10 w-10 hover:cursor-pointer"
         onClick={returnToTop}
@@ -19,4 +19,4 @@ const MobileNavCursor = () => {
   );
 };
 
-export default MobileNavCursor;
+export default NavCursorUp;
