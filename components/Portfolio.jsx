@@ -175,7 +175,7 @@ const Portfolio = () => {
                 Glazed & Confused
               </p>
             </div>
-            <div className="flex justify-between w-1/5 sm:w-1/4 md:w-1/3 mt-3">
+            <div className="flex justify-between w-1/5 sm:w-1/4 md:w-1/3 xl:w-1/5 mt-3">
               <a
                 href="https://github.com/Morralytics/Glazed-and-Confused"
                 target="_blank"

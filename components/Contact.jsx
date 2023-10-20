@@ -82,8 +82,8 @@ const Contact = () => {
         </div>
 
         {/* Desktop/Tablet */}
-        <div className="">
-          <div className="hidden sm:flex w-full items-center sm:items-start sm:px-5 xl:px-96">
+        <div className="w-full">
+          <div className="hidden sm:flex w-full items-center sm:items-start sm:px-5 xl:px-80">
             {/* Contact form */}
             <div className="flex flex-col w-full mb-2 sm:px-5 sm:pt-3">
               <form className="flex flex-col last:items-end">
