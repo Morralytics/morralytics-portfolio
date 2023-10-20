@@ -53,7 +53,7 @@ const NavigationCursor = () => {
         />
       </div>
       {/* Desktop XLarge */}
-      <div className="hidden lg:flex justify-center mt-20 xl:mt-48">
+      <div className="hidden lg:flex justify-center mt-20 xl:mt-20">
         <ChevronDownIcon
           className="h-10 w-10 hover:cursor-pointer"
           onClick={DownOneDesktopXlg}
